@@ -1,0 +1,158 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary: #4DC490
+-secondary:#FC1D5B;
+
+-Greys
+ #404040;
+ #666666
+
+- Tints:
+
+*/
+
+.section-overview {
+  padding: 14rem 0;
+  font-family: "Saira", sans-serif !important;
+}
+.overview-header {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.overview-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2;
+  width: 80rem;
+}
+
+.overview-box {
+  display: flex;
+  width: 130rem;
+  gap: 2rem;
+  margin: 0 auto;
+}
+.overview-left {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.overview-right {
+  width: 45.8rem;
+  height: 40.7rem;
+  padding: 1.8rem 0;
+  background-color: #f8f9fd;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+.right-list {
+  list-style-type: none;
+}
+.overview-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: #404040;
+  font-weight: 700;
+}
+.right-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 2.6rem;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(64, 64, 64, 0.15);
+}
+.right-list-item span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #404040;
+}
+.right-list-item a {
+  text-decoration: none;
+}
+.right-header {
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 1.2rem 2.6rem 2rem 2.6rem;
+  border-bottom: 0.5px solid rgba(64, 64, 64, 0.15);
+}
+.kidney-list-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.kidney-list-box-list-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.kidney-list-box-list-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.kidney-list-box-list {
+  width: 80rem;
+}
+.kidney-list-box-list li,
+.kidney-list-box-list span,
+.kidney-list-box-list-wrapper span {
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: 1.6rem;
+}
+.kidney-list-box-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-left: 1.6rem;
+}
+.kidney-list-box-list span {
+  margin-left: -1.6rem;
+}
+
+.nav-up:link,
+.nav-up:visited {
+  width: 9rem;
+  height: 9rem;
+  background-color: #4dc490;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 5%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+.nav-up-icon,
+.nav-icon:hover {
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+}
